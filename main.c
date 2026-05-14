@@ -13,6 +13,13 @@ void exibirMenu() {
     printf("Escolha uma opcao: ");
 }
 
+void consultarSaldo(float saldo) {
+    printf("\n--- SALDO ATUAL ---\n");
+    printf("R$ %.2f\n", saldo);
+    printf("-------------------\n");
+    system("pause"); // Aguarda o usuario
+}
+
 int main (){
 
     float saldo = 500.0;
